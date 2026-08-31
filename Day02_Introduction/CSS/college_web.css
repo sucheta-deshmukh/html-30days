@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    display: flex;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #bb3d38;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 90px;
+}
+.nav_ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 18px;
+}
+.nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.dot{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+.top_container{
+    display: flex;
+    justify-content: flex-start;
+    background-color:rgb(250, 232, 211);
+    text-align: center;
+}
+.top_subcontainer_1{
+    padding: 10px;
+    text-align: left;
+}
+.top_subcontainer_2{
+    text-align: center;
+    padding: 20px;
+}
+.top_subcontainer_3{
+    padding: 10px;
+    text-align: right;
+}
+.h1{
+    font-style:"UnifrakturCook", cursive;;
+}
