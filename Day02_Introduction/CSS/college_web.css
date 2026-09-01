@@ -63,3 +63,13 @@ a:hover{
 .h1{
     font-style:"UnifrakturCook", cursive;;
 }
+.middle_container{
+    color: #bc4a46;
+    width: 100%;
+    width: 30px;
+     display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+}
