@@ -64,12 +64,17 @@ a:hover{
     font-style:"UnifrakturCook", cursive;;
 }
 .middle_container{
-    color: #bc4a46;
+    background-color: #d83c36;
     width: 100%;
-    width: 30px;
-     display: flex;
+    height: 20px;
+    display: flex;
     justify-content: flex-start;
-    text-align: center;
-    gap: 30px;
-    padding: 20px;
+    text-align:center;
+    gap: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    
+}
+.last_container{
+    
 }
